@@ -1,0 +1,51 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Claude Code (local settings)
+.claude/
+
+# Build results (extra configs)
+[Dd]ebug/
+[Rr]elease/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+x64/
+x86/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Test / coverage
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+
+# Misc
+*.log
+*.tmp
+*.cache
