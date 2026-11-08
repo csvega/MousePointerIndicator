@@ -2,7 +2,7 @@
 
 마우스 위치를 화면에 크게 강조 표시해 주는 Windows 트레이 앱입니다. 발표·화면 공유·강의처럼 **"지금 여기를 클릭했다"**를 청중에게 또렷하게 보여줘야 할 때 유용합니다.
 
-가운데 버튼(휠 클릭)을 누르면 그 자리에 빨간 화살표와 **Click** 라벨이 나타납니다.
+가운데 버튼(휠 클릭)을 누르면 그 자리에 빨간 화살표와 **클릭** 라벨이 나타납니다.
 
 ## 주요 기능
 
@@ -66,7 +66,7 @@ dotnet publish -c Release -r win-x64 --self-contained true `
 | `MouseHook.cs` | 저수준 마우스 훅 — 가운데 버튼 클릭 감지 |
 | `KeyboardHook.cs` | 저수준 키보드 훅 — `Esc`, `Ctrl + Z` 감지 |
 | `OverlayManager.cs` | 오버레이 창들의 표시/제거 관리 |
-| `OverlayWindow.xaml` / `.xaml.cs` | 화살표 + Click 라벨 오버레이 창 |
+| `OverlayWindow.xaml` / `.xaml.cs` | 화살표 + 클릭 라벨 오버레이 창 |
 | `ArrowDirection.cs` | 화살표 방향(Up/Down) 열거형 |
 | `NativeMethods.cs` | Win32 API P/Invoke 선언 |
 | `app.ico` | 앱 및 트레이 아이콘 |

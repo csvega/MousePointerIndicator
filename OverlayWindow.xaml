@@ -28,20 +28,21 @@
                 Canvas.Left="88"
                 Canvas.Top="25"/>
 
+                <Grid Width="180" Canvas.Top="78">
                 <Border
-                Canvas.Left="52"
-                Canvas.Top="78"
+                HorizontalAlignment="Center"
                 Background="#DDFFFFFF"
                 CornerRadius="8"
                 Padding="8">
 
                     <TextBlock
-                    Text="Click"
+                    Text="클릭"
                     FontWeight="Bold"
                     FontSize="22"
                     Foreground="Red"/>
 
                 </Border>
+                </Grid>
 
             </Canvas>
 
@@ -52,20 +53,21 @@
 
             <Canvas>
 
+                <Grid Width="180" Canvas.Top="10">
                 <Border
-                Canvas.Left="52"
-                Canvas.Top="10"
+                HorizontalAlignment="Center"
                 Background="#DDFFFFFF"
                 CornerRadius="8"
                 Padding="8">
 
                     <TextBlock
-                    Text="Click"
+                    Text="클릭"
                     FontWeight="Bold"
                     FontSize="22"
                     Foreground="Red"/>
 
                 </Border>
+                </Grid>
 
                 <Rectangle
                 Width="4"
